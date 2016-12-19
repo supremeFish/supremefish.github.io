@@ -43,7 +43,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Copyright @ {{ site.time }} Super Fish.</small></p>
+        <p><small>Copyright @{{ site.time | date: '%Y' }} Super Fish.</small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
