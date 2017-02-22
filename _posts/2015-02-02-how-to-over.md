@@ -1,7 +1,7 @@
 ---
 layout: default
-title: How to over the great fire wall
-description: summer has come and passed
+title: 程序员必备技能：翻墙
+description: 不会翻墙的程序员不是一个好司机
 ---
 
 # 程序员必备技能：翻墙
