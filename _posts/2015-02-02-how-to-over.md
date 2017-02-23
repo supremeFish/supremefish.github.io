@@ -45,7 +45,7 @@ GoAgent的运行原理与其他代理工具基本相同，使用特定的中转�
 
 [https://accounts.google.com](https://accounts.google.com) (没有账号，请自行注册)
 
-![google_account.jpg](https://suchao2007.github.io/assets/article/google_account.jpg)
+![google_account.jpg](https://suchao2007.github.io/assets/article_img/google_account.jpg)
 
 > 如果不能访问google，请先使用开放appid
 
@@ -53,11 +53,11 @@ GoAgent的运行原理与其他代理工具基本相同，使用特定的中转�
 
 - 打开[https://console.developers.google.com](https://console.developers.google.com) ，左击顶部Project，然后左击创建项目
 
-![create_google_appid.jpg](https://suchao2007.github.io/assets/article/create_google_appid.jpg)
+![create_google_appid.jpg](https://suchao2007.github.io/assets/article_img/create_google_appid.jpg)
 
 - 输入项目名称后，会自动帮你匹配可用ID，然后左击建立
 
-![create_google_appid_2.jpg](https://suchao2007.github.io/assets/article/create_google_appid_2.jpg)
+![create_google_appid_2.jpg](https://suchao2007.github.io/assets/article_img/create_google_appid_2.jpg)
 
 **生成的项目ID就是之后要用的appid**
 
@@ -65,7 +65,7 @@ GoAgent的运行原理与其他代理工具基本相同，使用特定的中转�
 
 - 打开XX-Net的设置页：[http://127.0.0.1:8085](http://127.0.0.1:8085) ，切换到部署服务端
 
-![setup_server.jpg](https://suchao2007.github.io/assets/article/setup_server.jpg)
+![setup_server.jpg](https://suchao2007.github.io/assets/article_img/setup_server.jpg)
 
 - 弹出授权窗口时，点击Allow，然后就会进行服务端的部署
 
@@ -73,7 +73,7 @@ GoAgent的运行原理与其他代理工具基本相同，使用特定的中转�
 
 - 切换到状态来确认状态
 
-![proxy_status.jpg](https://suchao2007.github.io/assets/article/proxy_status.jpg)
+![proxy_status.jpg](https://suchao2007.github.io/assets/article_img/proxy_status.jpg)
 
 **至此，你就可以自由的上天了。。。**
 
