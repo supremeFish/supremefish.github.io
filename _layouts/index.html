@@ -24,7 +24,7 @@
       <section>
         <div id="posts">
         {% for cat in list %}
-          <h2>cat.name</h2>
+          <h2 id="#{{ cat.name }}">{{ cat.name }}</h2>
           {% for post in cat.items %}
           <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
           {% endfor %}
