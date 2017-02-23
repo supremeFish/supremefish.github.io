@@ -19,11 +19,11 @@
         <h1>{{ page.title | default: site.title }}</h1>
         <p>{{ page.description | default: site.description }}</p>
 
-        <p class="view"><a href="#posts">最近更新（{{ site.posts | size }}）</a></p>
+        <p class="view"><a href="#shares">最近更新（{{ site.shares | size }}）</a></p>
       </header>
       <section>
-        <div id="posts">
-        {% for post in site.posts %}
+        <div id="shares">
+        {% for post in site.shares %}
           <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
         </div>
