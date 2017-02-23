@@ -30,9 +30,8 @@
 
       {{ content }}
 
+      <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
       </section>
-
-      <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.baseurl }}"></div>
 
       <footer>
         {% if site.github.is_project_page %}
