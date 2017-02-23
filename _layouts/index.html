@@ -7,11 +7,14 @@
     <title>{{ page.title | default: site.title }} by {{ site.github.owner_name }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/index.css | relative_url }}">
     <meta name="viewport" content="width=device-width">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <style type="text/css">
+    #post h2 {margin-bottom: auto; margin-top: 20px;}
+    </style>
   </head>
   <body>
     <div class="wrapper">
