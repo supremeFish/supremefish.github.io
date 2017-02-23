@@ -19,7 +19,7 @@
         <h1>{{ page.title | default: site.title }}</h1>
         <p>{{ page.description | default: site.description }}</p>
 
-        <p class="view"><a href="#posts">最近更新（{{ site.posts | size }}）</a></p>
+        {% include list.html %}
       </header>
       <section>
         <div id="posts">
@@ -48,7 +48,7 @@
     <script type="text/javascript">
       try {
         var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
-      pageTracker._trackPageview();
+        pageTracker._trackPageview();
       } catch(err) {}
     </script>
   {% endif %}
