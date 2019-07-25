@@ -1,4 +1,0 @@
-{% assign list = site.posts | group_by:"category" %}
-{% for row in list %}
-  <p class="view"><a href="{{ site.baseurl }}/#{{ row.name }}">{{ row.name }}（{{ row.items | size }}）</a></p>
-{% endfor %}
